@@ -1,4 +1,4 @@
-# prepend_path
+# prependpath
 
 Given a (PATH-like) colon-separated string - this tool prepends a value to the string.
 
