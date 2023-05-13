@@ -30,4 +30,4 @@ How is this different from just doing the following?
 export PATH="/my/path/bin:$PATH"
 ```
 
-The if /my/path/bin already exists in PATH, it will be removed so that the entry is not duplicated. This makes it convenient for usage in `~/.zshrc` or `~/.bashrc` as it avoids a growing path when nesting multiple shells.
+If `/my/path/bin` already exists in PATH, it will be removed so that the entry is not duplicated. This makes it convenient for usage in `~/.zshrc` or `~/.bashrc` as it avoids ever-growing PATH-variables when nesting shells.
